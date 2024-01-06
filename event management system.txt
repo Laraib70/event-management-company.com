@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HAPPY EVENT</title>
+</head>
+<body>
+<nav>
+    <ul>
+        <li><a href="#">home</a></li>
+        <li><a href="#">about us</a></li>
+        <li><a href="#">booking</a></li>
+        <li><a href="#">details</a></li>
+        <li><a href="#">start</a></li>
+    </ul>
+</nav>
+<img src="image.jpg" alt="HAPPY EVENT">
+<p>
+THE INTELLIGENT WAY TO PLAN.
+WE BUILD YOUR DREAM AROUND YOU.
+</p>
+<style>
+/* CSS for styling the picture grid */
+    .picture-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px;
+    }
+
+    /* CSS for styling individual pictures */
+    .picture {
+        width: 100%;
+        height: auto;
+    }
+
+    /* CSS for styling the heading */
+    h2 {
+        text-align: center;
+    }
+</style>
+<h1>Welcome To Happy Events</h1>
+<p>
+Our Business Is Memory Making
+<p>
+<h2>POPULAR EVENTS:</h2>
+<div class="picture-grid">
+    <div class="picture">
+        <img src="event1.jpg" alt="Birthday">
+    </div>
+    <div class="picture">
+        <img src="event2.jpg" alt="Wedding">
+    </div>
+    <div class="picture">
+        <img src="event3.jpg" alt="Bridal Shower">
+    </div>
+    <style>
+    /* CSS for styling social media icons */
+    .icon {
+        font-size: 24px;
+        margin-right: 10px;
+    }
+</style>
+<h1>About Us</h1>
+<h2>We Live And Breath Event Planning</h2>
+<p>
+Our First Priority Is To Make Our Customer Happy And Satisfied
+You Can Check Out Our Social MediaPages
+</p>
+<h2>Pages</h2>
+<p>
+    <i class="icon fa fa-instagram"></i>
+    <i class="icon fa fa-facebook"></i>
+    <i class="icon fa fa-whatsapp"></i>
+    <i class="icon fa fa-twitter"></i>
+</p>
+<h3>BOOK YOUR EVENT</h3>
+<p>
+    <strong>Birth Day Event:</strong> Event A<br>
+    <strong>Price:</strong> 10,000 Rs<br><br>
+    <li><a href="#">Booking</a></li>
+    <li><a href="#">Cancel</a></li>
+    <strong>Wedding Event :</strong> Event B<br>
+    <strong>Price:</strong> 50,000 Rs<br><br>
+    <li><a href="#">Booking</a></li>
+    <li><a href="#">Cancel</a></li>
+    <strong>Bridal Shower Event :</strong> Event C<br>
+    <strong>Price:</strong> 15,000 Rs<br>
+    <li><a href="#">Booking</a></li>
+    <li><a href="#">Cancel</a></li>
+</p>
+    <h4> BECAUSE IN YOUR DREAMS 
+      EVERY DETAILS MATTERS</h4>
+
+    <form action="submit-event.php" method="post">
+      <label for="start-date">Start Date:</label>
+      <input type="date" id="start-date" name="start-date" required><br><br>
+
+      <label for="end-date">End Date:</label>
+      <input type="date" id="end-date" name="end-date" required><br><br>
+
+      <label for="catering">Catering:</label>
+      <input type="text" id="catering" name="catering" required><br><br>
+
+      <label for="decoration">Decoration:</label>
+      <input type="text" id="decoration" name="decoration" required><br><br>
+
+      <label for="venue">Venue:</label>
+      <input type="text" id="venue" name="venue" required><br><br>
+
+      <input type="submit" value="BOOK">
+      <input type="submit" value="CANCEL">
+    </form>
+<h5>LAST STEP TO MAKE IT HAPPEN!</h5>
+
+    <form action="submit-registration.php" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required><br><br>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required><br><br>
+
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone" required><br><br>
+
+      <label for="address">Address:</label>
+      <textarea id="address" name="address" required></textarea><br><br>
+
+      <input type="submit" value="DONE">
+      <input type="submit" value="CANCEL">
+    </form>
+    <h7>EVENT BOOKED SUCCESSFULLY</h7>
+
+    <p>BE A GUEST AT YOUR OWN EVENT.</p>
+</body>
+</html>
